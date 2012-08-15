@@ -17,7 +17,7 @@ namespace Delcom804002_BDriver
             }
         }
 
-        public ~LightDevice()
+        ~LightDevice()
         {
             DisconnectAndFinalizeDevice();
         }
